@@ -4,5 +4,5 @@ Docker runs processes in isolated containers. A container is a process which run
 
 Start a container running a redis server:
 
-$ docker run --name my-redis -d redis{{execute}}
+$ `docker run --name my-redis -d redis`{{execute}}
 
