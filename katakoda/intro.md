@@ -1,0 +1,1 @@
+In this scenario, you will learn how to launch Docker containers. It will explain the essential aspects that you need to be aware of.
