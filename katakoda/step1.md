@@ -1,8 +1,10 @@
 # Docker images
 
-Docker images is used to manage images. 
+Docker image command is used to display images in the local docker repository. 
 
-Now execute the command below: 
+Let's try it!
+
+Execute the command below: 
 
 `docker image ls`{{execute}} 
 
