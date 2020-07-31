@@ -7,7 +7,7 @@ You can create an NGINX instance in a Docker container using the NGINX Open Sour
 
 Start a container running a nginx instance in port 80:
 
-`docker run --name my-nginx 80:80 -d nginx`{{execute}}
+`docker run --name my-nginx -p 80:80 -d nginx`{{execute}}
 
 Now the nginx instance is up and running on port 80.
 You can visualize the instance by clicking in the plus button next to terminal tab and choosing view HTTP port 80.
