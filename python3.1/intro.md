@@ -1,1 +1,0 @@
-Practice Numbers using Python interpreter.

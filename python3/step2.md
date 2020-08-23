@@ -3,10 +3,10 @@ Open Python interpreter by executing the command below:
 
 Click / Type the commands below:
 
-`17 / 3`{{execute}} 
+`2 + 2`{{execute}} 
 
-`17 // 3`{{execute}} 
+`50 - 5 * 6`{{execute}} 
 
-`17 % 3`{{execute}} 
+`(50 - 5 * 6) / 4`{{execute}} 
 
-`5 * 3 + 2`{{execute}} 
+`8 / 5`{{execute}} 
