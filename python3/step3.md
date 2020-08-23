@@ -1,12 +1,5 @@
-Open Python interpreter by executing the command below:
-`python`{{execute}} 
+With Python, it is possible to use the ** operator to calculate powers 1:
 
-Click / Type the commands below:
+`5 ** 2`{{execute}} 
 
-`2 + 2`{{execute}} 
-
-`50 - 5 * 6`{{execute}} 
-
-`(50 - 5 * 6) / 4`{{execute}} 
-
-`8 / 5`{{execute}} 
+`2 ** 7`{{execute}} 

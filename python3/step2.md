@@ -1,12 +1,17 @@
-Open Python interpreter by executing the command below:
-`python`{{execute}} 
+Division (/) always returns a float. To do floor division and get an integer result (discarding any fractional result) you can use the // operator; to calculate the remainder you can use %:
 
-Click / Type the commands below:
+Let's start with a classic division returns a float.
 
-`2 + 2`{{execute}} 
+`17 / 3`{{execute}} 
 
-`50 - 5 * 6`{{execute}} 
+Floor division discards the fractional part.
 
-`(50 - 5 * 6) / 4`{{execute}} 
+`17 // 3`{{execute}} 
 
-`8 / 5`{{execute}} 
+The % operator returns the remainder of the division.
+
+`17 % 3`{{execute}} 
+
+Result * divisor + remainder
+
+`5 * 3 + 2`{{execute}} 

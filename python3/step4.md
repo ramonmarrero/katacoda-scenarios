@@ -1,12 +1,11 @@
-Open Python interpreter by executing the command below:
-`python`{{execute}} 
+The equal sign (=) is used to assign a value to a variable. Afterwards, no result is displayed before the next interactive prompt:
 
-Click / Type the commands below:
+`width = 20`{{execute}} 
 
-`2 + 2`{{execute}} 
+`height = 5 * 9`{{execute}} 
 
-`50 - 5 * 6`{{execute}} 
+`width * height`{{execute}} 
 
-`(50 - 5 * 6) / 4`{{execute}} 
+If a variable is not “defined” (assigned a value), trying to use it will give you an error:
 
-`8 / 5`{{execute}} 
+`n`{{execute}} 
