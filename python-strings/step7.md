@@ -13,6 +13,7 @@ If you need a different string, you should create a new one:
 
 `s = 'supercalifragilisticexpialidocious'`{{execute}} 
 
+The built-in function len() returns the length of a string:
 `len(s)`{{execute}}
 
 
