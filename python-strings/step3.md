@@ -12,8 +12,8 @@ String literals can span multiple lines. One way is using triple-quotes: """..."
 
 The following example:
 
-`print("""\`
-`Usage: thingy [OPTIONS]`
-`     -h`                        
-`     -H hostname`             
-`""")`{{execute}} 
+`print("""\
+Usage: thingy [OPTIONS]
+     -h                        
+     -H hostname               
+""")`{{copy}} 
