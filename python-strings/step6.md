@@ -1,20 +1,24 @@
 
-In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. 
+Note how the start is always included, and the end always excluded. This makes sure that s[:i] + s[i:] is always equal to s:
 
-The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
+`word[:2] + word[2:]`{{execute}} 
 
+`word[:4] + word[4:]`{{execute}} 
 
-`'"Isn\'t," they said.'`{{execute}} 
+Slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced.
 
+character from the beginning to position 2 (excluded)
+`word[:2]`{{execute}} 
 
-`print('"Isn\'t," they said.')`{{execute}} 
+characters from position 4 (included) to the end
+`word[4:]`{{execute}} 
 
+characters from the second-last (included) to the end
+`word[-2:]`{{execute}} 
 
-`s = 'First line.\nSecond line.'`{{execute}} 
+Attempting to use an index that is too large will result in an error:
+`word[42]`{{execute}} 
 
-#### without print(), \n is included in the output
-`s`{{execute}} 
-
-#### with print(), \n produces a new line
-`print(s)`{{execute}} 
+However, out of range slice indexes are handled gracefully when used for slicing:
+`word[4:42]`{{execute}}
 

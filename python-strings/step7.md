@@ -1,20 +1,18 @@
 
-In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. 
+Python strings cannot be changed — they are immutable. Therefore, assigning to an indexed position in the string results in an error:
 
-The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
+`word[0] = 'J'`{{execute}} 
 
-
-`'"Isn\'t," they said.'`{{execute}} 
-
-
-`print('"Isn\'t," they said.')`{{execute}} 
+`word[2:] = 'py'`{{execute}} 
 
 
-`s = 'First line.\nSecond line.'`{{execute}} 
+If you need a different string, you should create a new one:
+`'J' + word[1:]`{{execute}} 
 
-#### without print(), \n is included in the output
-`s`{{execute}} 
+`word[:2] + 'py'`{{execute}} 
 
-#### with print(), \n produces a new line
-`print(s)`{{execute}} 
+`s = 'supercalifragilisticexpialidocious'`{{execute}} 
+
+`len(s)`{{execute}}
+
 

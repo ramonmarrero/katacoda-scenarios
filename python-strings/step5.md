@@ -1,20 +1,25 @@
 
-In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. 
+Strings can be indexed (subscripted), with the first character having index 0. There is no separate character type; a character is simply a string of size one:
 
-The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
+`word = 'Python'`{{execute}} 
 
+`word[0]`{{execute}} 
 
-`'"Isn\'t," they said.'`{{execute}} 
+`word[5]`{{execute}} 
 
+Last character
+`word[-1]`{{execute}} 
 
-`print('"Isn\'t," they said.')`{{execute}} 
+Second-last character
+`word[-2]`{{execute}} 
 
+Note that since -0 is the same as 0, negative indices start from -1.
 
-`s = 'First line.\nSecond line.'`{{execute}} 
+In addition to indexing, slicing is also supported. While indexing is used to obtain individual characters, slicing allows you to obtain substring:
 
-#### without print(), \n is included in the output
-`s`{{execute}} 
+characters from position 0 (included) to 2 (excluded)
+`word[0:2]`{{execute}}
 
-#### with print(), \n produces a new line
-`print(s)`{{execute}} 
+characters from position 2 (included) to 5 (excluded
+`word[2:5]`{{execute}}
 

@@ -1,20 +1,30 @@
 
-In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. 
+Strings can be concatenated (glued together) with the + operator, and repeated with *:
 
-The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
+`3 * 'un' + 'ium'`{{execute}} 
+
+Two or more string literals (i.e. the ones enclosed between quotes) next to each other are automatically concatenated.
+
+`'Py' 'thon'`{{execute}} 
+
+This feature is particularly useful when you want to break long strings:
+
+`text = ('Put several strings within parentheses '
+...         'to have them joined together.')'`{{execute}} 
+
+`text`{{execute}} 
+
+This only works with two literals though, not with variables or expressions:
+
+`prefix = 'Py'`{{execute}} 
+
+can't concatenate a variable and a string literal
+
+`prefix 'thon'`{{execute}} 
+
+`('un' * 3) 'ium'`{{execute}} 
 
 
-`'"Isn\'t," they said.'`{{execute}} 
+If you want to concatenate variables or a variable and a literal, use +:
 
-
-`print('"Isn\'t," they said.')`{{execute}} 
-
-
-`s = 'First line.\nSecond line.'`{{execute}} 
-
-#### without print(), \n is included in the output
-`s`{{execute}} 
-
-#### with print(), \n produces a new line
-`print(s)`{{execute}} 
-
+`prefix + 'thon'`{{execute}} 
