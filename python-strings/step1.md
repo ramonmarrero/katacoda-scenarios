@@ -6,13 +6,13 @@ Open Python interpreter by executing the command below:
 
 Click or Type the commands below:
 
-#### single quotes
+##### single quotes
 `'spam eggs'`{{execute}} 
 
-#### use \' to escape the single quote...
+##### use \' to escape the single quote...
 `'doesn\'t'`{{execute}} 
 
-#### ...or use double quotes instead
+##### ...or use double quotes instead
 `"doesn't"`{{execute}} 
 
 `'"Yes," they said.'`{{execute}} 
