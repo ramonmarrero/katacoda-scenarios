@@ -8,6 +8,7 @@ Lists also support operations like concatenation:
 `squares + [36, 49, 64, 81, 100]`{{execute}} 
 
 Unlike strings, which are immutable, lists are a mutable type, i.e. it is possible to change their content:
+
 `cubes = [1, 8, 27, 65, 125]`{{execute}} 
 
 `cubes[3] = 64`{{execute}} 
