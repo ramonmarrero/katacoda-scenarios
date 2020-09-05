@@ -1,4 +1,10 @@
 
+
+Let's start with some examples.
+
+Open Python interpreter by executing the command below:
+`python`{{execute}} 
+
 ## while - Example
 
 `count = 0
@@ -11,10 +17,10 @@ while (count < 9):
 ## for - Example
 
 `for letter in 'Python':
-  print 'Current Letter :', letter`{{execute}} 
+  print ('Current Letter :', letter)`{{execute}} 
 
 
 `fruits = ['banana', 'apple',  'mango']
 for fruit in fruits:        # Second Example
-  print 'Current fruit :', fruit`{{execute}}
+  print ('Current fruit :', fruit)`{{execute}}
 
