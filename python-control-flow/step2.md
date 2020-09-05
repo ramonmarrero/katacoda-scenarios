@@ -1,21 +1,21 @@
 
-In the interactive interpreter, the output string is enclosed in quotes and special characters are escaped with backslashes. 
-While this might sometimes look different from the input (the enclosing quotes could change), the two strings are equivalent. 
+## nested loops
 
-The string is enclosed in double quotes if the string contains a single quote and no double quotes, otherwise it is enclosed in single quotes. The print() function produces a more readable output, by omitting the enclosing quotes and by printing escaped and special characters:
+Python programming language allows to use one loop inside another loop. Following section shows few examples to illustrate the concept.
+
+Syntax
+
+```for iterating_var in sequence:
+  for iterating_var in sequence:
+    statements(s)
+    statements(s)```
 
 
-`'"Isn\'t," they said.'`{{execute}} 
+```while expression:
+  while expression:
+    statement(s)
+    statement(s)```
 
 
-`print('"Isn\'t," they said.')`{{execute}} 
 
-
-`s = 'First line.\nSecond line.'`{{execute}} 
-
-Without print(), \n is included in the output
-`s`{{execute}} 
-
-With print(), \n produces a new line
-`print(s)`{{execute}} 
 

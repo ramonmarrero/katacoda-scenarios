@@ -1,20 +1,20 @@
 
-while - Example
+## while - Example
 
 `count = 0
 while (count < 9):
-   print 'The count is:', count
-   count = count + 1`{{execute}} 
+     print 'The count is:', count
+     count = count + 1`{{execute}} 
 
 
 
-for - Example
+## for - Example
 
-`for letter in 'Python':    
-   print 'Current Letter :', letter`{{execute}} 
+`for letter in 'Python':
+     print 'Current Letter :', letter`{{execute}} 
 
 
 `fruits = ['banana', 'apple',  'mango']
 for fruit in fruits:        # Second Example
-   print 'Current fruit :', fruit`{{execute}}
+     print 'Current fruit :', fruit`{{execute}}
 
