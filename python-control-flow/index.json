@@ -1,36 +1,36 @@
 {
-  "title": "Python Practice",
-  "description": "Python String Commands Practice",
+  "title": "Python Control Flow",
+  "description": "Python Control Flow Commands Practice",
   "difficulty": "Beginner",
   "time": "30 minutes",
   "details": {
     "steps": [
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step1.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step2.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step3.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step4.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step5.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step6.md"
       },
       {
-        "title": "Strings",
+        "title": "Control Flow",
         "text": "step7.md"
       }
     ],
