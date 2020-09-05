@@ -14,7 +14,7 @@ Syntax
 The syntax of a while loop in Python programming language is:
 
 ```while expression:
-    statement(s)```
+  statement(s)```
 
 
 ## for loop
@@ -22,6 +22,6 @@ The syntax of a while loop in Python programming language is:
 Syntax
 
 ```for iterating_var in sequence:
-    statements(s)```
+  statements(s)```
 
 Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.
