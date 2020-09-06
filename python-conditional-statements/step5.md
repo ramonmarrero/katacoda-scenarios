@@ -8,11 +8,11 @@ Syntax
 The syntax of the if Statement in Python programming language is:
 
 ```if <expr>:
-    <statement>
-  elif <expr>:
-    <statement>
-  else
-    <statement>```
+ <statement>
+elif <expr>:
+ <statement>
+else
+ <statement>```
 
 ### Example
 
@@ -24,4 +24,4 @@ elif (x > z):
  st= "x is greater than z"
 else:
  st= "Previous statements were not true"
- print (st)`{{execute}}
+print (st)`{{execute}}
