@@ -20,11 +20,11 @@ In a Python program, contiguous statements that are indented to the same level a
 A compound if statement in Python looks like this:
 
 ```if <expr>: 
-    <statement>
-    <statement>
-    ...
-    <statement>
-  <next statement>```
+ <statement>
+ <statement>
+ ...
+ <statement>
+<next statement>```
 
 ### Example 
 
@@ -32,8 +32,7 @@ A compound if statement in Python looks like this:
  print('Expression was true')
  print('Executing statement in suite')
  print('...')
- print('Done.')
-print('This is the next statements')`{{execute}}
+ print('Done.')`{{execute}}
 
 
 
