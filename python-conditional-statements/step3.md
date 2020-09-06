@@ -9,7 +9,9 @@ Open Python interpreter by executing the command below:
 ## if - Example
 
 `x = 1`{{execute}}
+
 `y = 5`{{execute}}
+
 `if x < y:
  print('x is less than y')`{{execute}}
 
@@ -17,14 +19,19 @@ In a Python program, contiguous statements that are indented to the same level a
 
 A compound if statement in Python looks like this:
 
-```if <expr>:
-
+```if <expr>: 
     <statement>
-
     <statement>
-
     ...
+    <statement>
+  <next statement>```
 
-    <statement>```
+`if 'foo' in ['bar', 'baz', 'qux']:
+    print('Expression was true')
+    print('Executing statement in suite')
+    print('...')
+    print('Done.')
+print('After conditional')`{{execute}}
+
 
 
