@@ -19,7 +19,7 @@ In a Python program, contiguous statements that are indented to the same level a
 
 A compound if statement in Python looks like this:
 
-```if <expr>: 
+```if <expr>:
  <statement>
  <statement>
  <statement>
