@@ -14,7 +14,6 @@ while (count < 9):
   count = count + 1`{{execute}} 
 
 
-
 ## for - Example
 
 `fruits = ['banana', 'apple',  'mango']
