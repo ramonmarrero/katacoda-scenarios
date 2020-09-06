@@ -35,4 +35,11 @@ A compound if statement in Python looks like this:
  print('Done.')`{{execute}}
 
 
+ `if 'foo' in ['bar', 'baz', 'qux', 'foo']:
+ print('Expression was true')
+ print('Executing statement in suite')
+ print('...')
+ print('Done.')`{{execute}}
+
+
 
