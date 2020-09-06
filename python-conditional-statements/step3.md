@@ -19,14 +19,13 @@ In a Python program, contiguous statements that are indented to the same level a
 
 A compound if statement in Python looks like this:
 
-```if *expr*: 
- *statement*
- *statement*
- ...
- *statement*
-*next statement*```
+```if <expr>: 
+ <statement>
+ <statement>
+ <statement>
+<next statement>```
 
-### Example 
+### Examples
 
 `if 'foo' in ['bar', 'baz', 'qux']:
  print('Expression was true')
