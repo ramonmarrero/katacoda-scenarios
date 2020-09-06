@@ -16,12 +16,3 @@ The syntax of the if Statement in Python programming language is:
 ```if <expr>:
     <statement>```
 
-
-## for loop
-
-Syntax
-
-```for iterating_var in sequence:
-  statements(s)```
-
-Executes a sequence of statements multiple times and abbreviates the code that manages the loop variable.

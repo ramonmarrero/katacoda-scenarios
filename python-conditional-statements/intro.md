@@ -1,1 +1,1 @@
-Practice Strings using Python interpreter.
+Practice Conditional Statements using Python interpreter.
