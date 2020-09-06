@@ -26,12 +26,13 @@ A compound if statement in Python looks like this:
     <statement>
   <next statement>```
 
+### Example 
+
 `if 'foo' in ['bar', 'baz', 'qux']:
     print('Expression was true')
     print('Executing statement in suite')
     print('...')
-    print('Done.')
-print('After conditional')`{{execute}}
+    print('Done.')`{{execute}}
 
 
 
