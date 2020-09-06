@@ -29,10 +29,11 @@ A compound if statement in Python looks like this:
 ### Example 
 
 `if 'foo' in ['bar', 'baz', 'qux']:
-    print('Expression was true')
-    print('Executing statement in suite')
-    print('...')
-    print('Done.')`{{execute}}
+ print('Expression was true')
+ print('Executing statement in suite')
+ print('...')
+ print('Done.')
+print('This is the next statements')`{{execute}}
 
 
 
