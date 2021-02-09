@@ -1,6 +1,6 @@
 {
-  "title": "vscode",
-  "description": "vscode",
+  "title": "Visual Studio Code",
+  "description": "Visual Studio Code",
   "difficulty": "Intermediate",
   "time": "2 hours",
   "details": {
@@ -16,10 +16,6 @@
       {
         "title": "Step 3",
         "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
       }
     ],
     "intro": {
@@ -29,9 +25,7 @@
       "text": "finish.md"
     }
   },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
+  "environment": {},
   "backend": {
     "imageid": "vscode"
   }
