@@ -17,7 +17,9 @@ else
 ### Example
 
 `x,y,z =12,4,6`{{execute}}
-	
+
+`st=''`{{execute}}
+
 `if(z < y):
  st= "z is less than y"
 elif (x > z):

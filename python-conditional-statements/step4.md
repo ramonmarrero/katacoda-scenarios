@@ -17,7 +17,7 @@ else
 ### Example
 
 `x,y =8,4`{{execute}}
-	
+
 `if(x < y):
  st= "x is less than y"
 else:
