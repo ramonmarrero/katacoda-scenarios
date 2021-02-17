@@ -36,6 +36,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "python:3.6"
+    "imageid": "airflow:1.10"
   }
 }
