@@ -32,11 +32,6 @@
   },
   "environment": {
     "hideintro": true,
-    "hidefinish": true,
-    "uilayout": "terminal-iframe",
-    "dashboards": [{"name": "Airflow", "port": 8080}]
-  },
-  "backend": {
-    "imageid": "airflow:1.10"
+    "hidefinish": true
   }
 }
