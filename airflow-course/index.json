@@ -34,5 +34,8 @@
     "hideintro": true,
     "hidefinish": true,
     "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "python:3.6"
   }
 }
