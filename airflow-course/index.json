@@ -31,7 +31,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "hideintro": true,
+    "hidefinish": true,
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "airflow:1.10"
