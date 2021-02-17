@@ -6,7 +6,8 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Launch Apache Airflow",
+        "code": "airflow.sh",
         "text": "step1.md"
       },
       {
