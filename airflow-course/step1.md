@@ -3,7 +3,7 @@ The environment has an Apache Airflow 1.10.9 application running as a Docker Con
 The commands used to launch the container was:
 
 - docker pull puckel/docker-airflow
-- docker run --name airflow -d -p 8080:8080 puckel/docker-airflow
+- docker run --name airflow -d -p 8080:8080 -e LOAD_EX=y puckel/docker-airflow
 
 The first command downloads the docker image for Airflow.
 
