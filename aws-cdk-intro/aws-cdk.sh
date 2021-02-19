@@ -1,8 +1,8 @@
 #Install Python 3.7
-sudo apt update
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:deadsnakes/ppa
-sudo apt install python3.7 -y
+#sudo apt update
+#sudo apt install software-properties-common
+#sudo add-apt-repository ppa:deadsnakes/ppa
+#sudo apt install python3.7 -y
 
 #Install AWS CDK 
 #npm install -g aws-cdk
