@@ -1,14 +1,17 @@
 {
-  "title": "Introduction to Airflow",
-  "description": "Introduction to Airflow",
-  "difficulty": "Intermediate",
+  "title": "AWS CDK Intro",
+  "description": "AWS CDK Intro",
+  "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
     "steps": [
       {
-        "title": "Launch Apache Airflow",
-        "code": "airflow.sh",
+        "title": "Step 1",
         "text": "step1.md"
+      },
+      {
+        "title": "Step 2",
+        "text": "step2.md"
       }
     ],
     "intro": {
@@ -19,11 +22,9 @@
     }
   },
   "environment": {
-    "hideintro": true,
-    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "airflow:1.10"
+    "imageid": "python:3.7"
   }
 }
