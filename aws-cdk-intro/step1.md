@@ -19,7 +19,9 @@ Execute the following commands to install python 3.7
 
 `sudo apt install python3-pip -y`{{execute}}
 
-`sudo apt install python3-venv -y`{{execute}}
+Change the default of python3 for python3.7. This will make the pip3 refer to python3.7. 
+
+`sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`{{execute}}
 
 
 ## Installing AWS CLI
@@ -64,8 +66,6 @@ Initiate the CDK using a programming language of your choice.
 ### Install the dependencies
 
 Once the CDK project has been initiated, you create the virtual environment and install the dependecies required with the command below:
-
-`source .venv/bin/activate`{{execute}}
 
 `python3.7 -m pip install -r requirements.txt`{{execute}}
 
