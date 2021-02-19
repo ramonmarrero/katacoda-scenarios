@@ -1,6 +1,6 @@
 ## Let's setup the environment
 
-This environment already have NodeJS installed. We can verify this by executing the following command.
+This environment already has NodeJS installed. We can verify this by executing the following command.
 
 `npm -v`{{execute}}
 
@@ -18,6 +18,8 @@ Execute the following commands to install python 3.7
 `sudo apt install python3.7 -y`{{execute}}
 
 `sudo apt install python3-pip -y`{{execute}}
+
+`sudo apt install python3-venv -y`{{execute}}
 
 
 ## Installing AWS CLI
@@ -39,7 +41,7 @@ You can now configure your AWS CLI by executing the command below:
 
 Provide your AWS credentials and default region.
 
-#Install AWS CDK 
+## Install AWS CDK 
 
 `npm install -g aws-cdk`{{execute}}
 
@@ -61,7 +63,9 @@ Initiate the CDK using a programming language of your choice.
 
 ### Install the dependencies
 
-Once the CDK project has been initiated, you install the dependecies required with the command below:
+Once the CDK project has been initiated, you create the virtual environment and install the dependecies required with the command below:
+
+`source .venv/bin/activate`{{execute}}
 
 `python3.7 -m pip install -r requirements.txt`{{execute}}
 
