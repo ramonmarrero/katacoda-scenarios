@@ -1,37 +1,29 @@
-Create the app
+## Let's setup the environment
+
+This environment already have NodeJS installed. We can verify this by executing the following command.
+`npm -v`{{execute}}
+
+### Installing Python 3.7
+Execute the following commands to install python 3.7
+`sudo apt update`{{execute}}
+`sudo apt install software-properties-common -y`{{execute}}
+`sudo add-apt-repository ppa:deadsnakes/ppa -y`{{execute}}
+`sudo apt install python3.7 -y`{{execute}}
+
+### Install the dependencies
+`sudo apt install python3-pip -y`{{execute}}
+`python3.7 -m pip install -r requirements.txt`{{execute}}
+
+## Create the app
 
 Each AWS CDK app should be in its own directory, with its own local module dependencies. Create a new directory for your app. Starting in your home directory, or another directory if you prefer, issue the following commands.
 
-mkdir hello-cdk
-cd hello-cdk
+`mkdir hello-cdk`{{execute}}
+`cd hello-cdk`{{execute}}
 
-Important
+##Initialize AWS CDK
+`cdk init app --language python`{{execute}}
 
-Be sure to name your project directory hello-cdk, exactly as shown here. The AWS CDK project template uses the directory name to name things in the generated code, so if you use a different name, some of the code in this tutorial won't work.
+##Verify the CDK App
+`cdk ls`{{execute}}
 
-Now initialize the app using the cdk init command, specifying the desired template ("app") and programming language.
-
-cdk init TEMPLATE --language LANGUAGE
-
-That is:
-
-    TypeScript
-    JavaScript
-    Python
-    Java
-    C#
-
-cdk init app --language python
-
-After the app has been created, also enter the following two commands to activate the app's Python virtual environment and install its dependencies.
-
-source .venv/bin/activate
-python -m pip install -r requirements.txt
-
-Tip
-
-If you don't specify a template, the default is "app," which is the one we wanted anyway, so technically you can leave it out and save four keystrokes.
-
-The cdk init command creates a number of files and folders inside the hello-cdk directory to help you organize the source code for your AWS CDK app. Take a moment to explore. The structure of a basic app is all there; you'll fill in the details as you progress in this tutorial.
-
-If you have Git installed, each project you create using cdk init is also initialized as a Git repository. We'll ignore that for now, but it's there when you need it. 
