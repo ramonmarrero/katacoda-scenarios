@@ -29,10 +29,10 @@ Each AWS CDK app should be in its own directory, with its own local module depen
 `python3.7 -m pip install -r requirements.txt`{{execute}}
 
 
-##Initialize AWS CDK
+## Initialize AWS CDK
 `cdk init app --language python`{{execute}}
 
 
-##Verify the CDK App
+## Verify the CDK App
 `cdk ls`{{execute}}
 
