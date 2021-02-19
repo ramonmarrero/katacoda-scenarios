@@ -7,11 +7,8 @@
     "steps": [
       {
         "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
+        "text": "step1.md",
+        "code": "aws-cdk.sh"
       }
     ],
     "intro": {
@@ -22,6 +19,8 @@
     }
   },
   "environment": {
+    "hideintro": true,
+    "hidefinish": true,
     "uilayout": "terminal"
   },
   "backend": {
