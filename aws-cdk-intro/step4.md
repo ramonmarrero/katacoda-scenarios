@@ -1,13 +1,6 @@
 
-## Install the dependencies
+## Define a new resource
 
-Once the CDK project has been initiated, you create the virtual environment and install the dependecies required with the command below:
+At this moment, the app does not do anything at all because the stack does not contain any resources defined. 
 
-`python3.7 -m pip install -r requirements.txt`{{execute}}
-
-
-## Verify the CDK App
-
-The following command verifies that the CDK Application is properly configured by displaying the current stack.
-
-`cdk ls`{{execute}}
+So, let's define an Amazon S3 bucket. 

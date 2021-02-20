@@ -1,19 +1,26 @@
 
-## Install AWS CDK 
+## Structure of AWS CDK 
 
-`npm install -g aws-cdk`{{execute}}
+To verify everything is working fine, list the stacks in your app.
 
-## Create the app
+`cdk ls`{{execute}}
 
-Create a new directory for your app. 
+You should see an output with hello-cdk. This is the stack created by default.
 
-`mkdir hello-cdk`{{execute}}
+Let's explore the project directory
 
-`cd hello-cdk`{{execute}}
+*hello_cdk* — A Python module directory.
 
+  - hello_cdk.egg-info - Folder that contains build information relevant for the packaging on the project
+  - hello_cdk.py—A custom CDK stack construct for use in your CDK application.
 
-## Initialize AWS CDK
+*app.py* — The “main” for this sample application.
 
-Initiate the CDK using a programming language of your choice.
+*cdk.json* — A configuration file for CDK that defines what executable CDK should run to generate the CDK construct tree.
 
-`cdk init app --language python`{{execute}}
+*README.md* — The introductory README for this project.
+
+*requirements.txt* — This file is used by pip to install all of the dependencies for your application. 
+In this case, it contains only -e . This tells pip to install the requirements specified in setup.py. 
+
+*setup.py* — Defines how the Python package would be constructed and what the dependencies are.
