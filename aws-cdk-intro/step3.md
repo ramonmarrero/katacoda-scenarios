@@ -1,18 +1,18 @@
-## Installing AWS CLI
+## Install AWS CDK 
 
-Execute the commands below to install the AWS Command Line Interface.
+`npm install -g aws-cdk`{{execute}}
 
-`curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64-2.0.30.zip" -o "awscliv2.zip"`{{execute}}
+## Create the app
 
-`unzip awscliv2.zip`{{execute}}
+Create a new directory for your app. 
 
-`sudo ./aws/install`{{execute}}
+`mkdir hello-cdk`{{execute}}
+
+`cd hello-cdk`{{execute}}
 
 
-## Configure AWS CLI
+## Initialize AWS CDK
 
-You can now configure your AWS CLI by executing the command below:
+Initiate the CDK using a programming language of your choice.
 
-`aws configure`{{execute}}
-
-Provide your AWS credentials and default region.
+`cdk init app --language python`{{execute}}

@@ -6,8 +6,17 @@
   "details": {
     "steps": [
       {
-        "title": "Settin Up AWS CDK Environment",
+        "title": "Setting Up AWS CDK Environment",
         "text": "step1.md"
+      },{
+        "title": "Settin Up AWS CDK Environment",
+        "text": "step2.md"
+      },{
+        "title": "Settin Up AWS CDK Environment",
+        "text": "step3.md"
+      },{
+        "title": "Settin Up AWS CDK Environment",
+        "text": "step4.md"
       }
     ],
     "intro": {
