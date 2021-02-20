@@ -33,10 +33,10 @@
     "hideHiddenFiles": true,
     "uieditorpath": "/root/hello-cdk",
     "uilayout": "vscode-terminal-split",
-    "idePort": 8080
+    "idePort": 23000
 
   },
   "backend": {
-    "imageid": "javascript"
+    "imageid": "nodejs:12"
   }
 }
