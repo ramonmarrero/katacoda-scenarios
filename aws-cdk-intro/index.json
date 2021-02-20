@@ -29,7 +29,8 @@
   "environment": {
     "hideintro": true,
     "hidefinish": true,
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "vscode-terminal-split",
+    "showide": true
   },
   "backend": {
     "imageid": "javascript"
