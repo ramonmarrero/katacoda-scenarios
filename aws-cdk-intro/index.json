@@ -30,6 +30,8 @@
   "environment": {
     "hideintro": true,
     "hidefinish": true,
+    "hideHiddenFiles": true,
+    "uieditorpath": "/root/hello-cdk",
     "uilayout": "editor-terminal"
   },
   "backend": {
