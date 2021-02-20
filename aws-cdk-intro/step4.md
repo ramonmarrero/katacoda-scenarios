@@ -23,9 +23,3 @@ In the same file, under the line *The code that defines your stack goes here*, a
 
 Make sure you keep the proper python identation.
 
-Now our stack is ready. You can synthetize and deploy your stack by executing the command below:
-
-`cdk deploy`{{execute}}
-
-This will deploy your S3 resource to AWS. You can verify this by log in into the AWS console and search for the newly created bucket in the AWS S3 Service.
-

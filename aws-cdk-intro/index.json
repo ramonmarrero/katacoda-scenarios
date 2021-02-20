@@ -18,6 +18,9 @@
       },{
         "title": "Defining a new AWS resource",
         "text": "step4.md"
+      },{
+        "title": "Deploying with AWS CDK",
+        "text": "step5.md"
       }
     ],
     "intro": {
