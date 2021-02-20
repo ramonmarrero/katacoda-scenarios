@@ -27,5 +27,5 @@ Now our stack is ready. You can synthetize and deploy your stack by executing th
 
 `cdk deploy`{{execute}}
 
-Thi will deploy your resource to AWS. You can verify this by log into the AWS console and search for the newly created bucket in the AWS S3 Service.
+This will deploy your S3 resource to AWS. You can verify this by log in into the AWS console and search for the newly created bucket in the AWS S3 Service.
 
