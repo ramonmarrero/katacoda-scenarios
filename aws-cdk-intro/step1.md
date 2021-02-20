@@ -1,24 +1,12 @@
 
-This environment already has NodeJS installed. We can verify this by executing the following command.
+In this section, we will create our first AWS CDK Application. You will learn about the structure of an AWS CDK project, how to work with the AWS Construct Library, and how to use the AWS CDK command tool.
 
-`npm -v`{{execute}}
+The development workflow for AWS CDK is as follows:
 
+  - Create the app from a template provided by the AWS CDK.
+  - Add code to the app to create resources within stacks.
+  - Build the app.
+  - Synthesize one or more stacks in the app to create an AWS CloudFormation template.
+  - Deploy one or more stacks to your AWS account.
 
-### Installing Python 3.7
-
-Execute the following commands to install python 3.7
-
-`sudo apt update`{{execute}}
-
-`sudo apt install software-properties-common -y`{{execute}}
-
-`sudo add-apt-repository ppa:deadsnakes/ppa -y`{{execute}}
-
-`sudo apt install python3.7 -y`{{execute}}
-
-`sudo apt install python3-pip -y`{{execute}}
-
-Change the default of python3 for python3.7. This will make the pip3 refer to python3.7. 
-
-`sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.7 1`{{execute}}
-
+  
