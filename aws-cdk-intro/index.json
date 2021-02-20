@@ -29,7 +29,7 @@
   "environment": {
     "hideintro": true,
     "hidefinish": true,
-    "uilayout": "vscode-terminal-split",
+    "uilayout": "terminal",
     "showide": true
   },
   "backend": {
