@@ -8,7 +8,7 @@
       {
         "title": "Setting Up AWS CDK Environment",
         "text": "step1.md",
-        "courseData": "aws-cdk.sh"
+        "code": "aws-cdk.sh"
       },{
         "title": "Settin Up AWS CDK Environment",
         "text": "step2.md"
