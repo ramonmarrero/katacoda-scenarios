@@ -20,6 +20,6 @@ In the same file, under the line *The code that defines your stack goes here*, a
     versioned=True,)
 ```
 
-Now our stack is ready. In order to deploy you stack, simply execute the command below:
+Now our stack is ready. You can synthetize and deploy your stack by executing the command below:
 
 `cdk deploy`{{execute}}
