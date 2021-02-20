@@ -1,4 +1,5 @@
-### Install the dependencies
+
+## Install the dependencies
 
 Once the CDK project has been initiated, you create the virtual environment and install the dependecies required with the command below:
 

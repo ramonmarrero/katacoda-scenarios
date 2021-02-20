@@ -1,4 +1,3 @@
-## Let's setup the environment
 
 This environment already has NodeJS installed. We can verify this by executing the following command.
 
