@@ -1,6 +1,4 @@
 
-## Structure of AWS CDK 
-
 To verify everything is working fine, list the stacks in your app.
 
 `cdk ls`{{execute}}

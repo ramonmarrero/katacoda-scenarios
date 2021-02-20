@@ -1,6 +1,4 @@
 
-
-## Configuring AWS CLI
 Once the initial configuration is completed. It is time to provide your AWS Credentials and default region.
 
 We can do this by executing `aws configure`{{execute}}
