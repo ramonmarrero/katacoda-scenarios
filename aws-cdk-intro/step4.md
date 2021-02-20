@@ -20,6 +20,7 @@ In the same file, under the line *The code that defines your stack goes here*, a
     "my_first_cdk_bucket", 
     versioned=True,)
 ```
+
 Make sure you keep the proper python identation.
 
 Now our stack is ready. You can synthetize and deploy your stack by executing the command below:
