@@ -29,8 +29,7 @@
   "environment": {
     "hideintro": true,
     "hidefinish": true,
-    "uilayout": "editor-terminal",
-    "showide": true
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "javascript"
