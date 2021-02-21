@@ -3,9 +3,9 @@ To verify everything is working fine, list the stacks in your app.
 
 `cdk ls`{{execute}}
 
-You should see an output with hello-cdk. This is the stack created by default.
+You should see an output with ```hello-cdk```. This is the stack created by default.
 
-Let's explore the project directory
+Let's explore the hello_cdk project directory.
 
 *hello_cdk* — A Python module directory.
 

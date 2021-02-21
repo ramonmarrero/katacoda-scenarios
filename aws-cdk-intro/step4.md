@@ -1,5 +1,5 @@
 
-At this moment, the app does not do anything at all because the stack does not contain any resources defined. 
+At this moment, the app does nothing at all because the stack does not contain any resources defined. 
 
 So, let's define a new AWS resource. 
 
