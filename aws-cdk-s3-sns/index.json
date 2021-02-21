@@ -1,0 +1,38 @@
+{
+  "title": "AWS CDK S3 Notifications",
+  "description": "AWS CDK S3 Notifications",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "S3 Notifications",
+        "text": "step1.md",
+        "code": "aws-cdk.sh"
+      },{
+        "title": "Installing the module",
+        "text": "step2.md"
+      },{
+        "title": "Deploying the stack",
+        "text": "step3.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "hideHiddenFiles": true,
+    "uieditorpath": "/root/aws-cdk-s3",
+    "uilayout": "vscode-terminal-split",
+    "idePort": 23000
+
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}
