@@ -6,8 +6,8 @@ Let's add some code to create the AWS resources.
 First import the necessary modules: S3, Sns and S3 Notifications.
 
 ```
-import aws_cdk.aws_s3
-import aws_cdk.aws_sns
+import aws_cdk.aws_s3 as s3
+import aws_cdk.aws_sns as sns 
 import aws_cdk.aws_s3_notifications as s3n
 ```
 
